@@ -27,13 +27,13 @@ const Navigation = () => {
         <li>
           <Link to="/slack-integration" className={`block px-3 py-2 rounded transition ${isActive('/slack-integration') ? 'bg-gray-700 ' : 'hover:bg-gray-700'}`}> Slack Integerations</Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             to="/google-integration"
             className={`block px-3 py-2 rounded transition ${isActive('/google-integration') ? 'bg-gray-700 ' : 'hover:bg-gray-700'}`}>
             Google Integration
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             to="/ghl-integration"

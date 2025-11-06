@@ -1,5 +1,5 @@
-const BASE_URL = "https://marketing-automation-43871816946.us-west1.run.app";
-const GBQ_BASE_URL = "https://ghl-automation-apis-43871816946.us-west1.run.app";
+const BASE_URL = import.meta.env.VITE_BASE_URL;
+const GBQ_BASE_URL = import.meta.env.VITE_GBQ_BASE_URL;
 
 export const API_ENDPOINTS = {
 
