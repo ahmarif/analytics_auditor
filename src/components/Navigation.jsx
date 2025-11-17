@@ -44,7 +44,7 @@ const Navigation = () => {
         <li>
           <Link
             to="/gbq-integration"
-            className={`block px-3 py-2 rounded transition ${isActive('/ghl-integration') ? 'bg-gray-700 ' : 'hover:bg-gray-700'}`}>
+            className={`block px-3 py-2 rounded transition ${isActive('/gbq-integration') ? 'bg-gray-700 ' : 'hover:bg-gray-700'}`}>
             GBQ Integration
           </Link>
         </li>
